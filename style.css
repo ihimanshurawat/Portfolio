@@ -1,0 +1,180 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("/res/v2.jpg");
+    /* background-color: brown; */
+    background-size: cover;
+    /* background-color: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); */
+    
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    /* align-content: center; */
+    overflow: hidden;
+}
+
+.container{
+    top: 40%;
+    position: relative;
+    text-align: center;   
+}
+.greetings-container{
+    animation: fade-in 4.5s ease forwards 4.0s;
+    opacity: 0;
+    margin-bottom: 5%;
+}
+
+.para{
+    margin: 0px;
+    padding: 0pxs ;
+    text-align: start;
+    font-size: 2.5em;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+}
+.social-icons{
+    margin-top: 5%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    animation: fade-in 4.5s ease forwards 4.0s;
+    opacity: 0;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.icon-github{
+    mask: url(res/svg/github.svg);
+    display: inline-block;
+    mask-size: cover;
+    background: white;
+}
+
+.icon-linkedin{
+    mask: url(res/svg/linkedin.svg);
+    display: inline-block;
+    mask-size: cover;
+    background: white;
+}
+
+.icon-facebook{
+    mask: url(res/svg/facebook.svg);
+    display: inline-block;
+    mask-size: cover;
+    background: white;
+}
+
+.icon-twitter{
+    mask: url(res/svg/twitter.svg);
+    display: inline-block;
+    mask-size: cover;
+    background: white;
+}
+
+.icon-gmail{
+    mask: url(res/svg/gmail.svg);
+    display: inline-block;
+    mask-size: cover;
+    background: white;
+}
+
+.icon-github:hover, .icon-github:focus{
+    background: #171515;
+    
+}
+
+.icon-linkedin:hover, .icon-linkedin:focus{
+    background:  rgb(0, 119, 181);
+}
+
+.icon-facebook:hover,.icon-facebook:focus{
+    background: rgb(59,89,152);
+}
+
+
+.icon-twitter:hover, .icon-twitter:focus{
+    background: #00aced;
+}
+
+.icon-gmail:hover, .icon-gmail:focus{
+    background: rgb(178, 49, 33);
+}
+
+#himanshu{
+    stroke-linecap: square; 
+    animation: fill-animation 4.5s ease forwards 4.0s;
+}
+
+#himanshu path:nth-child(2){
+    stroke-dasharray: 556.80;
+    stroke-dashoffset: 556.80;
+    animation: line-animation 4.1s ease forwards;
+}
+#himanshu path:nth-child(3){
+    stroke-dasharray: 236.4000244140625;
+    stroke-dashoffset: 236.4000244140625;
+    animation: line-animation 2s ease forwards 0.3s;
+}
+#himanshu path:nth-child(4){
+    stroke-dasharray: 786.3820190429688;
+    stroke-dashoffset: 786.3820190429688;
+    animation: line-animation 2s ease forwards 0.6s;
+}
+#himanshu path:nth-child(5){
+    stroke-dasharray: 510.72;
+    stroke-dashoffset: 510.72;
+    animation: line-animation 2s ease forwards 0.9s;
+}
+#himanshu path:nth-child(6){
+    stroke-dasharray: 629.6698608398438;
+    stroke-dashoffset: 629.6698608398438;
+    animation: line-animation 2s ease forwards 1.2s;
+}
+#himanshu path:nth-child(7){
+    stroke-dasharray: 514.49;
+    stroke-dashoffset: 514.49;
+    animation: line-animation 2s ease forwards 1.5s;
+}
+
+#himanshu path:nth-child(8){
+    stroke-dasharray: 556.800048828125;
+    stroke-dashoffset: 556.800048828125;
+    animation: line-animation 2s ease forwards 1.8s;
+}
+
+#himanshu path:nth-child(9){
+    stroke-dasharray: 504.05;
+    stroke-dashoffset: 504.05;
+    animation: line-animation 2s ease forwards 2.1s;
+}
+
+
+@keyframes line-animation{
+    to{
+        stroke-dashoffset: 0.00;
+    }
+}
+
+@keyframes fill-animation{
+    from{
+        fill: transparent;
+    }
+    to{
+        fill: white;
+    }
+}
+
+@keyframes fade-in{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity: 100;
+    }
+}
