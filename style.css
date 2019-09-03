@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("/res/v2.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("./res/v2.jpg");
     /* background-color: brown; */
     background-size: cover;
     /* background-color: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); */
@@ -50,35 +50,35 @@ body{
 }
 
 .icon-github{
-    mask: url(res/svg/github.svg);
+    mask: url(./res/svg/github.svg);
     display: inline-block;
     mask-size: cover;
     background: white;
 }
 
 .icon-linkedin{
-    mask: url(res/svg/linkedin.svg);
+    mask: url(./res/svg/linkedin.svg);
     display: inline-block;
     mask-size: cover;
     background: white;
 }
 
 .icon-facebook{
-    mask: url(res/svg/facebook.svg);
+    mask: url(./res/svg/facebook.svg);
     display: inline-block;
     mask-size: cover;
     background: white;
 }
 
 .icon-twitter{
-    mask: url(res/svg/twitter.svg);
+    mask: url(./res/svg/twitter.svg);
     display: inline-block;
     mask-size: cover;
     background: white;
 }
 
 .icon-gmail{
-    mask: url(res/svg/gmail.svg);
+    mask: url(./res/svg/gmail.svg);
     display: inline-block;
     mask-size: cover;
     background: white;
